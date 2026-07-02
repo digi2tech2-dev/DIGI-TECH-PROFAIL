@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="ديجي.png">
+  <link rel="apple-touch-icon" href="ديجي.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf4e3">
+  <title>DIGI TECH | IBRA STORE</title>
+  <meta name="description" content="Case study: IBRA STORE by DIGI TECH.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&family=Cinzel:wght@600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body
+  data-theme="light"
+  data-style="neon"
+  data-language="ar"
+  data-page="portfolio"
+  data-title-key="meta.title.portfolio"
+  data-description-key="meta.description.portfolio"
+>
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-core">
+      <span class="loader-ring"></span>
+      <span class="loader-ring loader-ring--accent"></span>
+      <span class="loader-dot"></span>
+    </div>
+    <p data-i18n="loader.text">Loading DIGI TECH</p>
+  </div>
+
+  <div class="site-background" aria-hidden="true">
+    <canvas class="particles-canvas" id="particles-canvas" aria-hidden="true"></canvas>
+    <span class="bg-orb bg-orb--one"></span>
+    <span class="bg-orb bg-orb--two"></span>
+    <span class="bg-orb bg-orb--three"></span>
+    <span class="bg-orb bg-orb--four"></span>
+    <span class="bg-grid"></span>
+    <span class="bg-noise"></span>
+  </div>
+
+  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar-header">
+      <a class="brand brand--sidebar" href="index.html#home" data-nav-link>
+        <span class="brand-mark brand-mark--logo" aria-hidden="true">
+          <img class="brand-logo" src="ديجي.png" alt="" decoding="async" loading="eager">
+        </span>
+        <span class="brand-copy">
+          <strong>DIGI TECH</strong>
+          <span data-i18n="brand.subtitle">شركة برمجيات</span>
+        </span>
+      </a>
+
+      <button
+        class="icon-button"
+        id="sidebar-close"
+        type="button"
+        aria-label="Close menu"
+        data-i18n-aria-label="sidebar.closeAria"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 6 18 18M18 6 6 18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Sidebar navigation">
+      <a href="index.html#home" data-nav-link data-page-link="home" data-i18n="nav.home">Home</a>
+      <a href="services.html" data-nav-link data-page-link="services" data-i18n="nav.services">Services</a>
+      <a href="team.html" data-nav-link data-page-link="team" data-i18n="nav.team">Team</a>
+      <a href="our-work.html" data-nav-link data-page-link="portfolio" data-i18n="nav.work">Work</a>
+      <a href="index.html#contact" data-nav-link data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="sidebar-preferences" aria-label="إعدادات العرض">
+      <button class="sidebar-quick-control" type="button" data-sidebar-theme-toggle>
+        <span class="sidebar-quick-icon" aria-hidden="true">◐</span>
+        <span data-sidebar-theme-label>الوضع</span>
+      </button>
+      <button class="sidebar-quick-control" type="button" data-sidebar-language-toggle>
+        <span class="sidebar-quick-icon" aria-hidden="true">◎</span>
+        <span data-sidebar-language-label>EN</span>
+      </button>
+    </div>
+
+    <div class="sidebar-panel">
+      <span class="eyebrow" data-i18n="sidebar.panelEyebrow">Need a faster launch?</span>
+      <h3 data-i18n="sidebar.panelTitle">Let’s shape your next digital product with premium execution.</h3>
+      <p data-i18n="sidebar.panelText">DIGI TECH combines frontend quality, backend reliability, and cyber security thinking in one delivery flow.</p>
+      <a class="button button-primary button-block" href="https://wa.me/201019603238" target="_blank" rel="noreferrer">
+        <span data-i18n="sidebar.panelButton">Chat on WhatsApp</span>
+      </a>
+      <a class="button button-secondary button-block" href="https://www.facebook.com/share/1Fsu4GKDZk/?mibextid=wwXIfr" target="_blank" rel="noreferrer">
+        <span data-i18n="sidebar.panelButtonFacebook">Chat on Facebook</span>
+      </a>
+    </div>
+  </aside>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html#home" data-nav-link>
+        <span class="brand-mark brand-mark--logo" aria-hidden="true">
+          <img class="brand-logo" src="ديجي.png" alt="" decoding="async" loading="eager">
+        </span>
+        <span class="brand-copy">
+          <strong>DIGI TECH</strong>
+          <span data-i18n="brand.subtitle">شركة برمجيات</span>
+        </span>
+      </a>
+
+      <div class="top-nav">
+        <a href="index.html#home" data-nav-link data-page-link="home" data-i18n="nav.home">Home</a>
+        <a href="services.html" data-nav-link data-page-link="services" data-i18n="nav.services">Services</a>
+        <a href="our-work.html" data-nav-link data-page-link="portfolio" data-i18n="nav.work">Work</a>
+        <a href="index.html#contact" data-nav-link data-i18n="nav.contact">Contact</a>
+      </div>
+
+      <div class="header-actions">
+        <a class="button button-primary button-sm header-cta" href="https://wa.me/201019603238" target="_blank" rel="noreferrer">
+          <span data-i18n="nav.startProject">Start Project</span>
+        </a>
+        <button class="control-button" id="theme-toggle" type="button" aria-label="Switch to light mode">
+          <span class="control-icon" id="theme-icon" aria-hidden="true"></span>
+          <span class="control-text" id="theme-label">Light</span>
+        </button>
+
+        <button class="control-button" id="language-toggle" type="button" aria-label="Switch to Arabic">
+          <span class="control-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm6.9 8h-3a15 15 0 0 0-1.2-4 7.5 7.5 0 0 1 4.2 4ZM12 4.5c.9 1.2 1.6 3 1.9 5.1h-3.8c.3-2.1 1-3.9 1.9-5.1ZM4.5 12c0-.5.1-1 .2-1.5h3.2a16.8 16.8 0 0 0 0 3H4.7c-.1-.5-.2-1-.2-1.5Zm.6 3h3a15 15 0 0 0 1.2 4A7.5 7.5 0 0 1 5.1 15Zm3-6h-3a7.5 7.5 0 0 1 4.2-4 15 15 0 0 0-1.2 4Zm3.9 10.5c-.9-1.2-1.6-3-1.9-5.1h3.8c-.3 2.1-1 3.9-1.9 5.1Zm2.2-6h-4.4a14.9 14.9 0 0 1 0-3h4.4a14.9 14.9 0 0 1 0 3Zm.5 5.5a15 15 0 0 0 1.2-4h3a7.5 7.5 0 0 1-4.2 4Zm1.5-5.5a16.8 16.8 0 0 0 0-3h3.2c.1.5.2 1 .2 1.5s-.1 1-.2 1.5h-3.2Z" fill="currentColor"></path>
+            </svg>
+          </span>
+          <span class="control-text" id="language-label">AR</span>
+        </button>
+
+        <button
+          class="icon-button"
+          id="sidebar-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="sidebar"
+          aria-label="Open menu"
+          data-i18n-aria-label="sidebar.openAria"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16M8 12h12M10 17h10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="barba-stage" data-barba="wrapper">
+  <main data-barba="container" data-barba-namespace="case-ibra">
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Case Study</span>
+          <h2>IBRA STORE</h2>
+          <p>Preview of the store experience and launch-ready UI delivery.</p>
+        </div>
+
+        <article class="project-card reveal case-card" style="--delay: 0.05s;">
+          <div class="project-visual project-visual--ibra">
+            <div class="project-browser">
+              <div class="project-browser-topbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="project-browser-screen">
+                <div class="project-ribbon">IBRA STORE</div>
+                <div class="project-screen-grid">
+                  <div class="screen-panel screen-panel--large"></div>
+                  <div class="screen-panel"></div>
+                  <div class="screen-panel"></div>
+                  <div class="screen-panel screen-panel--accent"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span>E-commerce experience</span>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-tag">ibrastore.app</span>
+              <span class="project-live">Live</span>
+            </div>
+            <h3>IBRA STORE</h3>
+            <p>A modern e-commerce platform with clean UX and premium visuals.</p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://ibrastore.app" target="_blank" rel="noreferrer">
+                <span>Visit Website</span>
+              </a>
+              <a class="button button-secondary" href="our-work.html">
+                <span>Back to Our Work</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>
+        <span data-i18n="footer.copy">DIGI TECH creates premium digital experiences with product polish, technical care, and secure execution.</span>
+      </p>
+      <div class="footer-social">
+        <a class="footer-social-link" href="https://www.facebook.com/share/1Fsu4GKDZk/?mibextid=wwXIfr" target="_blank" rel="noreferrer" aria-label="DIGI TECH على فيسبوك">
+          <svg class="footer-social-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22 12.1c0-5.5-4.5-10-10-10S2 6.6 2 12.1c0 5 3.7 9.1 8.5 9.9v-7H8v-2.9h2.5V9.9c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6v1.9H17l-.4 2.9h-2.3v7c4.8-.8 8.5-5 8.5-9.9Z" fill="currentColor"></path>
+          </svg>
+          <span>DIGI TECH</span>
+        </a>
+        <a class="footer-social-wa" href="https://wa.me/201019603238" target="_blank" rel="noreferrer" aria-label="تواصل مع DIGI TECH عبر واتساب">
+          <svg class="footer-social-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.5 11.8c0 4.8-3.9 8.8-8.8 8.8-1.5 0-2.9-.4-4.2-1.1L3.5 20.5l1.1-3.9A8.7 8.7 0 0 1 3 11.8C3 7 6.9 3 11.7 3s8.8 3.9 8.8 8.8Zm-8.8-7.4a7.4 7.4 0 0 0-6.4 11.2l.2.4-.7 2.5 2.6-.7.4.2a7.4 7.4 0 1 0 3.9-13.6Zm4.5 9.4c-.2-.1-1.3-.7-1.5-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.3-.3c.1-.1.2-.2.2-.4s0-.3-.1-.4c-.1-.1-.5-1.3-.7-1.7-.2-.4-.4-.3-.5-.3h-.5c-.2 0-.4.1-.6.3-.2.2-.8.7-.8 1.8 0 1 .8 2 1 2.2.1.1 1.5 2.3 3.7 3.2 2.1.9 2.1.6 2.5.6.4-.1 1.3-.5 1.4-.9.2-.4.2-.8.1-.9-.1-.1-.3-.2-.5-.3Z" fill="currentColor"></path>
+          </svg>
+          <span>DIGI TECH</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/201019603238"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Chat with DIGI TECH on WhatsApp"
+    data-i18n-aria-label="contact.whatsappAria"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.5 11.8c0 4.8-3.9 8.8-8.8 8.8-1.5 0-2.9-.4-4.2-1.1L3.5 20.5l1.1-3.9A8.7 8.7 0 0 1 3 11.8C3 7 6.9 3 11.7 3s8.8 3.9 8.8 8.8Zm-8.8-7.4a7.4 7.4 0 0 0-6.4 11.2l.2.4-.7 2.5 2.6-.7.4.2a7.4 7.4 0 1 0 3.9-13.6Zm4.5 9.4c-.2-.1-1.3-.7-1.5-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.3-.3c.1-.1.2-.2.2-.4s0-.3-.1-.4c-.1-.1-.5-1.3-.7-1.7-.2-.4-.4-.3-.5-.3h-.5c-.2 0-.4.1-.6.3-.2.2-.8.7-.8 1.8 0 1 .8 2 1 2.2.1.1 1.5 2.3 3.7 3.2 2.1.9 2.1.6 2.5.6.4-.1 1.3-.5 1.4-.9.2-.4.2-.8.1-.9-.1-.1-.3-.2-.5-.3Z" fill="currentColor"></path>
+    </svg>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
